@@ -33,7 +33,7 @@ WiFiClient wifiClient;
 PubSubClient mqttClient(wifiClient);
 
 // Nombre del tópico en MQTT
-const char* topic = "iot/grupo_06/out";
+const char* topic = "iot/grupo_06/weather_station/telemetry";
 
 int t = 0;
 
